@@ -1,0 +1,2 @@
+const getboxArea = (box) => 
+    box.width * box.height * box.depth

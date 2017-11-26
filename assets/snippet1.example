@@ -1,0 +1,6 @@
+// Global
+var foo = 'Terrible'
+
+// Block Scoped {}
+let foo = 'Mutable' 
+const foo = 'Immutable'

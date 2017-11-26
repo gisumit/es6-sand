@@ -1,0 +1,8 @@
+const obj = {foo: 'bar'}
+const o = Object.seal(obj)
+
+obj.foo = 'zoo' // {foo: 'zoo'}
+o.foo = 'zoo' // {foo: 'zoo'}
+
+delete o.foo // doesn't delete the property
+Object.isSealed(o) // true

@@ -1,0 +1,4 @@
+for (const n in nickName) { 
+    console.log(n)
+}
+// 0 1 2 

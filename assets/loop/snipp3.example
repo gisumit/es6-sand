@@ -1,0 +1,6 @@
+const nickName = ['foo', 'bar', 'zoo']
+
+for (const n of nickName) { 
+    console.log(n)
+}
+// foo bar zoo 

@@ -1,0 +1,6 @@
+arr.forEach(function (elem) {
+    console.log(elem)
+})
+
+// arrow function
+arr.forEach( elm => console.log(elm))

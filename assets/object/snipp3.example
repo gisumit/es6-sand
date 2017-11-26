@@ -1,0 +1,5 @@
+const obj = {foo: 'bar'}
+const o = Object.freeze(obj)
+
+o === obj // true
+Object.isFrozen(obj)

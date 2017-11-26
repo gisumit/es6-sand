@@ -1,0 +1,10 @@
+const 🚗 = {
+  type: 'Nexon', 
+  displayType() {  
+    console.log(this.type)
+  }
+}
+
+const Tata = Object.create(🚗)
+Tata.type = 'Nano'
+Tata.displayType() // Nano

@@ -1,0 +1,5 @@
+const first = { name: 'Thor' }
+const last = { lastName: ' Odinson' }
+const person = Object.assign(first, last)
+console.log(person)
+// {name: 'Thor', lastName: 'Odinson'}

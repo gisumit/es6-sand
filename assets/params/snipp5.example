@@ -1,0 +1,8 @@
+const getboxArea = ({
+    width = 1
+    height = 1
+    depth = 1
+    }) => 
+        box.width * box.height * box.depth
+const box = { width: 10, height4, depth: 7, color: '#c00'}
+const boxArea = getboxArea(box)
